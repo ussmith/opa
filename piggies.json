@@ -1,0 +1,20 @@
+{
+	"piggies": [
+		{"id": "bacon", "house": "house1"},
+		{"id": "sausage", "house": "house2"},
+	        {"id": "cozy pig", "house": "house3"}
+	],
+	"houses": [
+		{"id": "123 Hog Lane", "construction": "new"},
+		{"id": "4A Trotter St", "construction": "new"},
+		{"id": "999 Brickbat Rd", "construction": "old"}
+	],
+	"materials": [
+		{"id": "straw", "house": "123 Hog Lane"},
+		{"id": "sticks", "house": "4A Trotter St"},
+		{"id": "bricks", "house": "999 Brickbat Rd"}
+	]
+}
+
+
+
