@@ -1,0 +1,19 @@
+{
+    "neighborhood": {
+        "piggies": [
+            {"id": "bacon", "house": "house1"},
+            {"id": "sausage", "house": "house2"},
+            {"id": "cozy pig", "house": "house3"}
+         ],
+         "houses": [
+            {"id": "house1", "construction": "new", "material": "sticks", "address": "Back Pen Alley"},
+            {"id": "house2", "construction": "new", "material": "straw", "address": "Barnyard Way"},
+            {"id": "house3", "construction": "old", "material": "bricks", "address": "Farmhouse Alpha"}
+        ],
+        "stores": [
+            {"id": "store1", "construction": "old", "material": "sticks", "address": "123 Hog Lane"},
+            {"id": "store2", "constrcution": "new", "material": "paper", "address": "4A Trotter St"},
+            {"id": "store3", "constrcution": "new", "material": "bricks","address": "999 Brickbat Rd"}
+        ]
+    }
+}
