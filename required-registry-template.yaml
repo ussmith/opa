@@ -18,10 +18,10 @@ spec:
       rego: |
         package k8srequiresource
         violation[{"msg": msg}, "details": {"invalid_registry": image}] {
-        input.review.object.kind == "Pod"
-          some i
-          image := input.review.object.spec.containers[i].image
-          required := input.parameters.registry
-          not startswith(image,required)
-          msg := ("invalid registry %v provided", image) 
+          input.review.object.kind == "Pod"
+          some i
+          image := input.review.object.spec.containers[i].image
+          required := input.parameters.registry
+          not startswith(image,required)
+          msg := ("invalid registry %v provided", image) 
         }
